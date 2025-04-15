@@ -359,7 +359,7 @@ footer {
   }
 
   .col1 {
-    width: 30%;
+    width: 33%;
   }
 
   .col {
@@ -439,9 +439,14 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+ 
   .col1 {
     width: 100%;
+   
   }
+ .col1 img{
+  min-height: 200px;
+ }
 
   .col {
     max-width: 500px;
