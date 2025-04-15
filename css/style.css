@@ -127,15 +127,14 @@ nav ul {
   width: 100%;
   /* margin: auto; */
   padding-top: 200px;
-  
 }
 /* .banner-content h1 .left{
     text-align: left;
   } */
-   .left .right{
-    max-width: 100%;
-   }
- .right {
+.left .right {
+  max-width: 100%;
+}
+.right {
   text-align: right;
 }
 .end-content {
@@ -170,7 +169,7 @@ nav ul {
   background-color: var(--primary-color);
   position: absolute;
   /* bottom: -5px; */
- 
+
   left: -8%;
   /* transform: translateX(-50%); */
 }
@@ -275,8 +274,6 @@ nav ul {
   font-size: 20px;
 }
 
-
-
 /* footer */
 footer {
   position: relative;
@@ -302,11 +299,9 @@ footer {
 }
 
 .footer-section {
- 
   width: 20%;
   min-width: 100px;
 }
-
 
 .footer-section p,
 .footer-section li,
@@ -316,8 +311,6 @@ footer {
   line-height: 1.6;
   text-decoration: none;
 }
-
-
 
 .social-icons {
   display: flex;
@@ -380,7 +373,6 @@ footer {
     align-items: center;
     justify-content: center;
   }
- 
 
   .toggler {
     display: block;
@@ -399,7 +391,7 @@ footer {
     justify-content: space-between;
     width: 100%;
   }
-  
+
   .navbar nav {
     display: flex;
     align-items: start;
@@ -438,7 +430,7 @@ footer {
 
     /* max-width: 80vh; */
   }
- 
+
   .banner-content {
     max-width: 767px;
     margin: auto;
@@ -473,9 +465,8 @@ footer {
     /* text-align: center; */
     margin: auto;
     max-width: 40vh;
-    
   }
- 
+
   .end-content h3 {
     font-size: 28px;
   }
@@ -489,7 +480,6 @@ footer {
     font-size: 55px;
     /* text-align: center; */
   }
-  
 }
 @media screen and (max-width: 489px) {
   .banner-content h1 {
@@ -508,14 +498,13 @@ footer {
     margin: auto;
     max-width: 390px;
   }
- 
+
   .banner-content {
     text-align: center;
   }
 }
 @media screen and (max-width: 320px) {
   .banner-content h1 {
-   
     font-size: 40px;
   }
   .end-content h3 {
@@ -524,14 +513,9 @@ footer {
   .end-content p {
     font-size: 12px;
   }
- 
- .section-heading{
-  font-size: 35px;
 
- }
- /* in 320px screen there are a lot of space below banner content i want to reduce that it is looking odd, i will ask to ma'am */
- 
-
-
+  .section-heading {
+    font-size: 35px;
+  }
+  /* in 320px screen there are a lot of space below banner content i want to reduce that it is looking odd, i will ask to ma'am */
 }
-
