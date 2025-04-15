@@ -470,21 +470,32 @@ footer {
     display: none;
   }
   .end-content {
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
-    max-width: 50vh;
+    max-width: 40vh;
+    
   }
+ 
   .end-content h3 {
-    text-align: center;
-    margin: auto;
-    max-width: 50vh;
+    font-size: 28px;
   }
+  .end-content p {
+    font-size: 15px;
+  }
+
+  .banner-content h1 {
+    font-family: "Play", sans-serif;
+    color: white;
+    font-size: 55px;
+    /* text-align: center; */
+  }
+  
 }
 @media screen and (max-width: 489px) {
   .banner-content h1 {
     font-family: "Play", sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .banner-content {
@@ -497,16 +508,29 @@ footer {
     margin: auto;
     max-width: 390px;
   }
-  .banner-content h1 {
-    font-family: "Play", sans-serif;
-    color: white;
-    font-size: 70px;
-  }
+ 
   .banner-content {
     text-align: center;
   }
 }
 @media screen and (max-width: 320px) {
+  .banner-content h1 {
+   
+    font-size: 40px;
+  }
+  .end-content h3 {
+    font-size: 22px;
+  }
+  .end-content p {
+    font-size: 12px;
+  }
+ 
+ .section-heading{
+  font-size: 35px;
+
+ }
+ /* in 320px screen there are a lot of space below banner content i want to reduce that it is looking odd, i will ask to ma'am */
+ 
 
 
 }
